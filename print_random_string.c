@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-// function prototype (tells compiler rand_string is in random.c)
+// this tells the compiler that rand_string function is in random.c
 void rand_string(char *str, size_t size);
 
 // random string generator wrapper function
