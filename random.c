@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <time.h>
 
 void rand_string(char *str, size_t size) {
     const char letters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -8,5 +9,5 @@ void rand_string(char *str, size_t size) {
         str[i] = letters[key];
     }
 
-    str[size] = '\0';  // marks the end of the word
+    str[size] = '\0';  // this marks the end of the word
 }
